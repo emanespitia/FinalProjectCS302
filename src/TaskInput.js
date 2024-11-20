@@ -1,11 +1,11 @@
 import React, {useState} from "react";
 
-const taskInput =({handleAddtask})=>{
-    const [task, setTask] = userState ('');
+const TaskInput =({handleAddTask})=>{
+    const [task, setTask] = useState ('');
     const addTask = () =>{
         if(task.trim())
         {
-            handleAddtask(task);
+            handleAddTask(task);
             setTask('');
         }
     };
@@ -26,3 +26,4 @@ const taskInput =({handleAddtask})=>{
 
 
 export default TaskInput;
+

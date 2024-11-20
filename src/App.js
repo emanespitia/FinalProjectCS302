@@ -1,11 +1,9 @@
 import React, {useState} from 'react';
-import TaskInput from './TaskInput'
 import './App.css';
-
+import TaskInput from './TaskInput'
 function App()
 {
   const [tasks, setTasks] = useState([]);
-
   const addTask = (task) => {
     setTasks([...tasks, task]);
   };
@@ -14,11 +12,10 @@ function App()
     setTasks(tasks.filter((_,index)=> index !== indexToDelete));
   }
 
-
   return (
     <div className = 'App'>
       <h1>Task Manager</h1>
-      <taskInput handleAddTask = {addTask} />
+      <TaskInput handleAddTask = {addTask} />
       <ul>
         {tasks.map((task,index)=> (
           <li key = {index}>
@@ -32,3 +29,4 @@ function App()
 };
 
 export default App;
+
