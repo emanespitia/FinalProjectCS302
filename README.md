@@ -1,5 +1,18 @@
-# Getting Started with Create React App
+# Task manager on React
 
+## Project description
+
+This project is mean to create program using the react framework. This is a task manager program. You type in your task and it will be displayed o screen in a list with a delet button for you to dlet e once the task is complete. 
+
+# Dowwnloading and using the program
+
+In order to be able to run this program you will need to downlaod Nodes.js. First you will need to download nodes.js from nodes.org website. Make sure you donwload it for your perspective machine weather it is Apple IOS or Windows. Once yo uhave done that you can now download the code from Github and run it. You open up your project downloaded in vs, them in the terminal inside vs code and you type in "npm start" this  will start to run the app downloaded and it will open a new window in your browser and run the project downloaded.
+
+# Making your own file from scratch to create a project
+
+if you just wish to make your own project from scratch you will still need to download nodes.js, but instead of downlaoding a file and "using npm start" in the terminal nwe will create a new project. First open up a blank folder in vs code. Next you will open up the terminal and type "npx create-react-app {name of project}". This will create the files necessary and download the required packages for you to se this framework. This might take a bit of time. Once the project has been created you will see the files show up in your folder with the project name. Once it finalizes you can open terminal up again and then type in "npm start" this will start the program and run the code, a browser will pop up with the react logo spining. you can now go into the files and create your own project and mess about freely. 
+
+# using and troubleshooting react
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
