@@ -1,3 +1,9 @@
+body
+{
+  background-color: beige;
+}
+
+
 .App
 {
   text-align: center;
@@ -14,7 +20,24 @@ button
   padding: 8px;
   margin-left: 10px;
 }
-botton:hover
+ul
+{
+  display:inline-block;
+  text-align: justify;
+}
+li
+{
+  list-style-type:lower-roman ;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 10px;
+}
+button:hover
 {
   background-color: blue;
+  color: white;
+}
+li button:hover
+{
+  background-color: red;
 }
